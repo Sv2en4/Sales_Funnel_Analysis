@@ -1,4 +1,4 @@
-# E-Commerce Sales Funnel Analyse — Wo der Umsatz verloren geht und welcher Kanal ihn bezahlt
+# E-Commerce Sales Funnel Analyse — Wo der Umsatz verloren geht und woher er kommt
 
 > **Business-Frage:** Wie effizient ist der Sales Funnel, wo gehen die meisten Kunden verloren und welcher Akquisekanal rechtfertigt sein Budget?
 > **Antwort:** Der Checkout ist nicht das Problem — er konvertiert von Checkout-Start bis Kauf mit rund 74%, der letzte Schritt (Payment → Kauf) sogar mit 92%. **82,5% aller verlorenen Kunden gehen an einem einzigen Schritt verloren: View → Add-to-Cart.** Genau dort — und nur dort — unterscheiden sich auch die Akquisekanäle: Email konvertiert View→Purchase mit 33,9%, Social mit 6,7% (Faktor 5,1). Ein großer Teil des bezahlten Social-Traffics wird damit vermutlich unterhalb der Rentabilitätsschwelle eingekauft.
@@ -9,13 +9,13 @@
 
 **Die Rolle, aus der heraus ich analysiere:** Analyst zur Unterstützung eines E-Commerce Growth- bzw. Performance-Marketing-Teams.
 
-    Diese Analyse geht nicht nur auf einzelne Zahlen und Conversion-Rates ein,
-    da diese Zahlen alleine wertlos für Entscheidungen sind, sondern erklärt
-    *welche* Maßnahme den meisten Umsatz bringen könnten und gibt Empfehlungen.
-    Dadurch soll vermieden werden, dass ein Team beispielsweise ein ganzes
-    Quartal in das Redesign einer Checkout-Seite steckt, die bereits einwandfrei
-    funktioniert, oder Budget in einen Akquisekanal schiebt, der zuverlässig
-    Schaufensterbummler liefert.
+Diese Analyse geht nicht nur auf einzelne Zahlen und Conversion-Rates ein,
+da diese Zahlen alleine wertlos für Entscheidungen sind, sondern erklärt
+*welche* Maßnahme den meisten Umsatz bringen könnten und gibt Empfehlungen.
+Dadurch soll vermieden werden, dass ein Team beispielsweise ein ganzes
+Quartal in das Redesign einer Checkout-Seite steckt, die bereits einwandfrei
+funktioniert, oder Budget in einen Akquisekanal schiebt, der zuverlässig
+Schaufensterbummler liefert.
 
 **Entscheidungen, die diese Analyse stützen soll:**
 - Wo soll UX/Engineering den Funnel optimieren und wo ausdrücklich *nicht*?
@@ -108,7 +108,16 @@ Cart→Purchase liegt bei allen vier Quellen eng beieinander (49,1% bis 56,7%), 
 **5. Der durchschnittliche Bestellwert liegt bei ca. 107€, die Gesamtdauer bis zum Kauf bei 25 Minuten.**
 Der zeitliche Kaufverlauf wirkt menschlich, nicht automatisiert — das validiert den Datensatz. Der AOV setzt zugleich die Obergrenze dafür, was wir pro gewonnenem Kunden zahlen dürfen.
 
-📊 *Hier einzubettende Charts: (a) Funnel-Balkendiagramm mit schrittweisem Drop-off in %, (b) gruppiertes Balkendiagramm — Conversion Rate nach Traffic-Quelle, (c) Umsatzbeitrag je Kanal.*
+<img width="380" height="741" alt="Bildschirmfoto 2026-08-12 um 10 38 11" src="https://github.com/user-attachments/assets/96030e90-5b85-42a7-80df-514d1b39ca9a" />
+
+<img width="792" height="741" alt="Bildschirmfoto 2026-08-12 um 10 48 53" src="https://github.com/user-attachments/assets/77c26fa9-888a-4468-9fc0-b507632b8588" />
+
+<img width="706" height="741" alt="Bildschirmfoto 2026-08-12 um 10 58 49" src="https://github.com/user-attachments/assets/90e40be2-b253-42cd-a574-3a0f1077da91" />
+
+
+
+Tableau Public Link: https://public.tableau.com/views/SalesFunnelAnalyse/Blatt3?:language=de-DE&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ---
 
 ## 5. Empfehlungen
