@@ -1,0 +1,6 @@
+stage_order,stage,users,step_conv_pct,drop_off_users,drop_off_pct,share_of_total_loss_pct,pct_of_top
+1,Views,4268,,,,,100.0
+2,Cart,1332,31.0,2936.0,68.8,82.5,31.2
+3,Checkout,951,71.0,381.0,28.6,10.7,22.3
+4,Payment,768,81.0,183.0,19.2,5.1,18.0
+5,Purchase,708,92.0,60.0,7.8,1.7,16.6
