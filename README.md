@@ -164,15 +164,10 @@ sales-funnel-analysis/
 │   ├── 04_time_to_conversion.sql
 │   └── 05_revenue_funnel.sql
 ├── data/
-│   ├── raw/                 # Quell-Extrakt oder Ladeskript
+│   ├── raw/                 # Raw-Data als CSV
 │   └── processed/           # Query-Outputs als CSV für das Dashboard
-├── notebooks/
-│   └── validation.ipynb     # Datenqualitätsprüfungen, Plausibilisierung des SQL-Outputs
 ├── viz/
 │   └── tableau_link.md
-├── docs/
-│   └── findings_summary.pdf # 1-seitige Executive-Version
-└── requirements.txt
 ```
 
 ### Analyse reproduzieren
